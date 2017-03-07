@@ -1,0 +1,1577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1500E3561E13468300B10148 /* ZLXStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1500E3551E13468300B10148 /* ZLXStatusCell.m */; };
+		1500E3591E135AB700B10148 /* ZLXUserParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1500E3581E135AB700B10148 /* ZLXUserParameter.m */; };
+		1500E35C1E135B5300B10148 /* ZLXUserInfoResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 1500E35B1E135B5300B10148 /* ZLXUserInfoResult.m */; };
+		1500E35F1E135B8B00B10148 /* ZLXUserTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1500E35E1E135B8B00B10148 /* ZLXUserTool.m */; };
+		1500E3631E138A1300B10148 /* ZLXUnderCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 1500E3621E138A1300B10148 /* ZLXUnderCount.m */; };
+		1500E3671E138A7300B10148 /* ZLXUnderCountResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 1500E3661E138A7300B10148 /* ZLXUnderCountResult.m */; };
+		1500E36A1E13A3E600B10148 /* ZLXStatusDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1500E3691E13A3E600B10148 /* ZLXStatusDetailView.m */; };
+		1500E36D1E13A3FC00B10148 /* ZLXStatusToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1500E36C1E13A3FC00B10148 /* ZLXStatusToolBar.m */; };
+		1500E3701E13A58700B10148 /* ZLXStatusOriginalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1500E36F1E13A58700B10148 /* ZLXStatusOriginalView.m */; };
+		1500E3731E13A5D200B10148 /* ZLXRetweetedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1500E3721E13A5D200B10148 /* ZLXRetweetedView.m */; };
+		1500E3781E13B31000B10148 /* ZLXStatusOriginalFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1500E3771E13B31000B10148 /* ZLXStatusOriginalFrame.m */; };
+		1500E37B1E13B34500B10148 /* ZLXStatusReweetedFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1500E37A1E13B34500B10148 /* ZLXStatusReweetedFrame.m */; };
+		1500E37E1E13B35C00B10148 /* ZLXStatusDetailFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1500E37D1E13B35C00B10148 /* ZLXStatusDetailFrame.m */; };
+		1500E3811E13B45900B10148 /* ZLXStatusFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1500E3801E13B45900B10148 /* ZLXStatusFrame.m */; };
+		150BAA241E14E03D0010F867 /* NSDate+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 150BAA231E14E03D0010F867 /* NSDate+MJ.m */; };
+		150BAA261E150C470010F867 /* ZLXStatusToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150BAA251E150C470010F867 /* ZLXStatusToolBar.xib */; };
+		152294F41E29B7650011929D /* ZLXStatusLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 152294F31E29B7650011929D /* ZLXStatusLabel.m */; };
+		152C94291E304FFB0016E6D4 /* ZLXStatusDetailTopBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 152C94281E304FFB0016E6D4 /* ZLXStatusDetailTopBar.xib */; };
+		152C942D1E30ACE40016E6D4 /* ZLXBaseParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 152C942C1E30ACE40016E6D4 /* ZLXBaseParam.m */; };
+		152C94301E30AD6B0016E6D4 /* ZLXCommentParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 152C942F1E30AD6B0016E6D4 /* ZLXCommentParam.m */; };
+		152C94331E30B09D0016E6D4 /* ZLXComments.m in Sources */ = {isa = PBXBuildFile; fileRef = 152C94321E30B09D0016E6D4 /* ZLXComments.m */; };
+		152C94391E30B6400016E6D4 /* ZLXCommentResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 152C94381E30B6400016E6D4 /* ZLXCommentResult.m */; };
+		152E62AA1E2EF73B0033BD1D /* ZLXCommonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152E62A91E2EF73B0033BD1D /* ZLXCommonController.m */; };
+		15350D1F1E2CC4BF00BED57D /* ZLXCommonLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 15350D1E1E2CC4BF00BED57D /* ZLXCommonLabelItem.m */; };
+		15435DC41E1E19680066D2D3 /* EmotionIcons in Resources */ = {isa = PBXBuildFile; fileRef = 15435DC31E1E19680066D2D3 /* EmotionIcons */; };
+		15435DC71E1E2A820066D2D3 /* ZLXEmotionGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15435DC61E1E2A820066D2D3 /* ZLXEmotionGridView.m */; };
+		15435DCA1E1E3D020066D2D3 /* ZLXEmotionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15435DC91E1E3D020066D2D3 /* ZLXEmotionModel.m */; };
+		1555C4E61E63B5860009DE8A /* ZLXHomeCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1555C4E51E63B5860009DE8A /* ZLXHomeCacheTool.m */; };
+		155E6D5C1E0CB51E005BBB4A /* ZLXOAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155E6D5B1E0CB51E005BBB4A /* ZLXOAuthController.m */; };
+		155E6D5F1E0CC814005BBB4A /* ZLXAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 155E6D5E1E0CC814005BBB4A /* ZLXAccount.m */; };
+		155E6D621E0CCDA2005BBB4A /* ZLXAccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 155E6D611E0CCDA2005BBB4A /* ZLXAccountTool.m */; };
+		155E6D661E0CD064005BBB4A /* ZLXNewFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 155E6D651E0CD064005BBB4A /* ZLXNewFeature.m */; };
+		155E6D6B1E0CF97D005BBB4A /* ZLXHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 155E6D6A1E0CF97D005BBB4A /* ZLXHttpTool.m */; };
+		155E6D711E0CFDFC005BBB4A /* ZLXUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 155E6D701E0CFDFC005BBB4A /* ZLXUser.m */; };
+		155E6D741E0CFE6E005BBB4A /* ZLXStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 155E6D731E0CFE6E005BBB4A /* ZLXStatus.m */; };
+		155E6D771E0D0186005BBB4A /* ZLXPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 155E6D761E0D0186005BBB4A /* ZLXPicture.m */; };
+		1564B1D81E2C68D00018E3F4 /* ZLXCommonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1564B1D71E2C68D00018E3F4 /* ZLXCommonItem.m */; };
+		1564B1DB1E2C69840018E3F4 /* ZLXCommonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1564B1DA1E2C69840018E3F4 /* ZLXCommonGroup.m */; };
+		1564B1E11E2C73DB0018E3F4 /* ZLXCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1564B1E01E2C73DB0018E3F4 /* ZLXCommonCell.m */; };
+		1564B1E41E2CAA1E0018E3F4 /* ZLXCommonArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1564B1E31E2CAA1E0018E3F4 /* ZLXCommonArrowItem.m */; };
+		1564B1E71E2CAA760018E3F4 /* ZLXCommonSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1564B1E61E2CAA760018E3F4 /* ZLXCommonSwitch.m */; };
+		156D94751E0A604F0091C29A /* ZLXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156D94741E0A604F0091C29A /* ZLXMainViewController.m */; };
+		156EE11B1E1DCBA300B0AE5B /* ZLXEmotionToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EE11A1E1DCBA300B0AE5B /* ZLXEmotionToolBar.m */; };
+		1593AE8D1E31F87D00DCDE20 /* ZLXReweetParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 1593AE8C1E31F87D00DCDE20 /* ZLXReweetParam.m */; };
+		1593AE901E31F89300DCDE20 /* ZLXReweentResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 1593AE8F1E31F89300DCDE20 /* ZLXReweentResult.m */; };
+		159E16D91E236FF7006F0D73 /* ZLXEmotionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 159E16D81E236FF7006F0D73 /* ZLXEmotionTool.m */; };
+		159E16DC1E238BC1006F0D73 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 159E16DB1E238BC1006F0D73 /* NSString+Emoji.m */; };
+		15B1B6FA1E274E910083D4F2 /* ZLXEmotionAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B1B6F91E274E910083D4F2 /* ZLXEmotionAttachment.m */; };
+		15B1B6FD1E277FC40083D4F2 /* ZLXRegexResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B1B6FC1E277FC40083D4F2 /* ZLXRegexResult.m */; };
+		15BA071C1E16281100D1A228 /* ZLXStatusPhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA071B1E16281100D1A228 /* ZLXStatusPhotosView.m */; };
+		15BA071F1E1661D200D1A228 /* ZLXStatusPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA071E1E1661D200D1A228 /* ZLXStatusPhotoView.m */; };
+		15BE45DF1E24CF0600263043 /* ZLXEmotionTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BE45DE1E24CF0600263043 /* ZLXEmotionTextView.m */; };
+		15C509511E2DE79E00995A7E /* ZLXBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C509501E2DE79E00995A7E /* ZLXBadgeView.m */; };
+		15D5C9AB1E11F3E10043910C /* ZLXCompose.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D5C9AA1E11F3E10043910C /* ZLXCompose.m */; };
+		15D5C9AE1E1263AD0043910C /* ZLXStatusResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D5C9AD1E1263AD0043910C /* ZLXStatusResult.m */; };
+		15D5C9B21E1266450043910C /* ZLXStatusDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D5C9B11E1266450043910C /* ZLXStatusDataTool.m */; };
+		15D5C9B51E12672D0043910C /* ZLXParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D5C9B41E12672D0043910C /* ZLXParameter.m */; };
+		15E96D351E2EFF5D009B4FA0 /* ZLXProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E96D341E2EFF5D009B4FA0 /* ZLXProfileController.m */; };
+		15E96D3E1E2F0B36009B4FA0 /* ZLXStatusDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E96D3D1E2F0B36009B4FA0 /* ZLXStatusDetailViewController.m */; };
+		15E96D451E2F3944009B4FA0 /* ZLXStatusDetailBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E96D441E2F3944009B4FA0 /* ZLXStatusDetailBottomBar.m */; };
+		15E96D481E2F3B9A009B4FA0 /* ZLXStatusDetailTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E96D471E2F3B9A009B4FA0 /* ZLXStatusDetailTopBar.m */; };
+		15EF6DAE1E0B5D3B00DFEE6E /* ZLXHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF6DAD1E0B5D3B00DFEE6E /* ZLXHomeController.m */; };
+		15EF6DB11E0B5D4A00DFEE6E /* ZLXMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF6DB01E0B5D4A00DFEE6E /* ZLXMessageController.m */; };
+		15EF6DB41E0B5D5900DFEE6E /* ZLXDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF6DB31E0B5D5900DFEE6E /* ZLXDiscoverController.m */; };
+		15EF6DBB1E0B5F1100DFEE6E /* UIImage+ZLX.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF6DBA1E0B5F1100DFEE6E /* UIImage+ZLX.m */; };
+		15EF6DBE1E0B607300DFEE6E /* ZLXMainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF6DBD1E0B607300DFEE6E /* ZLXMainTabBar.m */; };
+		15EF6DC11E0B672700DFEE6E /* UIView+ZLX.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF6DC01E0B672700DFEE6E /* UIView+ZLX.m */; };
+		15EF6DC51E0B67AC00DFEE6E /* ZLXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF6DC41E0B67AC00DFEE6E /* ZLXConst.m */; };
+		15EF6DC81E0B7A5B00DFEE6E /* ZLXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF6DC71E0B7A5B00DFEE6E /* ZLXNavigationController.m */; };
+		15EF6DCE1E0B7AF100DFEE6E /* UIBarButtonItem+ZLX.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF6DCD1E0B7AF100DFEE6E /* UIBarButtonItem+ZLX.m */; };
+		15EF6DD11E0BAF9B00DFEE6E /* ZLXTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF6DD01E0BAF9B00DFEE6E /* ZLXTextField.m */; };
+		15EF6DD41E0BB4FF00DFEE6E /* ZLXNewFeatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF6DD31E0BB4FF00DFEE6E /* ZLXNewFeatureController.m */; };
+		15F1284A1E1F6DE5007AC427 /* ZLXEmotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F128491E1F6DE5007AC427 /* ZLXEmotionView.m */; };
+		15F1284D1E1F8F87007AC427 /* ZLXEmotionPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F1284C1E1F8F87007AC427 /* ZLXEmotionPopView.m */; };
+		15F1284F1E1F903A007AC427 /* ZLXEmotionPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F1284E1E1F903A007AC427 /* ZLXEmotionPopView.xib */; };
+		15F30E911E0A5FD10069D0CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F30E901E0A5FD10069D0CE /* main.m */; };
+		15F30E941E0A5FD10069D0CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F30E931E0A5FD10069D0CE /* AppDelegate.m */; };
+		15F30E9A1E0A5FD10069D0CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15F30E981E0A5FD10069D0CE /* Main.storyboard */; };
+		15F30E9C1E0A5FD10069D0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15F30E9B1E0A5FD10069D0CE /* Assets.xcassets */; };
+		15F30E9F1E0A5FD10069D0CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15F30E9D1E0A5FD10069D0CE /* LaunchScreen.storyboard */; };
+		15F30EAA1E0A5FD10069D0CE /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F30EA91E0A5FD10069D0CE /* __Tests.m */; };
+		15F30EB51E0A5FD10069D0CE /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F30EB41E0A5FD10069D0CE /* __UITests.m */; };
+		15F5FCD21E1CA97F0015F697 /* ZLXEmotionKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F5FCD11E1CA97F0015F697 /* ZLXEmotionKeyboard.m */; };
+		15F5FCD61E1CC3630015F697 /* ZLXEmotionlistView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F5FCD51E1CC3630015F697 /* ZLXEmotionlistView.m */; };
+		15F8E2CF1E2A0A2600D5733F /* ZLXLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F8E2CE1E2A0A2600D5733F /* ZLXLink.m */; };
+		15FB16E11E10A7FF00B0B0F9 /* ZLXComposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FB16E01E10A7FF00B0B0F9 /* ZLXComposeController.m */; };
+		15FB16E41E10ADCF00B0B0F9 /* ZLXTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FB16E31E10ADCF00B0B0F9 /* ZLXTextView.m */; };
+		15FB16E71E10E2DA00B0B0F9 /* ZLXToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FB16E61E10E2DA00B0B0F9 /* ZLXToolBar.m */; };
+		71182E41FC2EAD4B8AE39641 /* libPods-微博Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B103E49836162479939161 /* libPods-微博Tests.a */; };
+		8057428FAC81BCDFCFBE9F99 /* libPods-微博.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39227DB7512A3E96987C8911 /* libPods-微博.a */; };
+		CB92818B876D8E96453C90FD /* libPods-微博UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B191F399FCC85FD83E6075 /* libPods-微博UITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15F30EA61E0A5FD10069D0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15F30E841E0A5FD10069D0CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15F30E8B1E0A5FD10069D0CE;
+			remoteInfo = "微博";
+		};
+		15F30EB11E0A5FD10069D0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15F30E841E0A5FD10069D0CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15F30E8B1E0A5FD10069D0CE;
+			remoteInfo = "微博";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12900593A76C5A649AFEFBCE /* Pods-微博Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-微博Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-微博Tests/Pods-微博Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1500E3541E13468300B10148 /* ZLXStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXStatusCell.h; sourceTree = "<group>"; };
+		1500E3551E13468300B10148 /* ZLXStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXStatusCell.m; sourceTree = "<group>"; };
+		1500E3571E135AB700B10148 /* ZLXUserParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXUserParameter.h; sourceTree = "<group>"; };
+		1500E3581E135AB700B10148 /* ZLXUserParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXUserParameter.m; sourceTree = "<group>"; };
+		1500E35A1E135B5300B10148 /* ZLXUserInfoResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXUserInfoResult.h; sourceTree = "<group>"; };
+		1500E35B1E135B5300B10148 /* ZLXUserInfoResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXUserInfoResult.m; sourceTree = "<group>"; };
+		1500E35D1E135B8B00B10148 /* ZLXUserTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXUserTool.h; sourceTree = "<group>"; };
+		1500E35E1E135B8B00B10148 /* ZLXUserTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXUserTool.m; sourceTree = "<group>"; };
+		1500E3611E138A1300B10148 /* ZLXUnderCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXUnderCount.h; sourceTree = "<group>"; };
+		1500E3621E138A1300B10148 /* ZLXUnderCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXUnderCount.m; sourceTree = "<group>"; };
+		1500E3651E138A7300B10148 /* ZLXUnderCountResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXUnderCountResult.h; sourceTree = "<group>"; };
+		1500E3661E138A7300B10148 /* ZLXUnderCountResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXUnderCountResult.m; sourceTree = "<group>"; };
+		1500E3681E13A3E600B10148 /* ZLXStatusDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXStatusDetailView.h; sourceTree = "<group>"; };
+		1500E3691E13A3E600B10148 /* ZLXStatusDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXStatusDetailView.m; sourceTree = "<group>"; };
+		1500E36B1E13A3FC00B10148 /* ZLXStatusToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXStatusToolBar.h; sourceTree = "<group>"; };
+		1500E36C1E13A3FC00B10148 /* ZLXStatusToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXStatusToolBar.m; sourceTree = "<group>"; };
+		1500E36E1E13A58700B10148 /* ZLXStatusOriginalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXStatusOriginalView.h; sourceTree = "<group>"; };
+		1500E36F1E13A58700B10148 /* ZLXStatusOriginalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXStatusOriginalView.m; sourceTree = "<group>"; };
+		1500E3711E13A5D200B10148 /* ZLXRetweetedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXRetweetedView.h; sourceTree = "<group>"; };
+		1500E3721E13A5D200B10148 /* ZLXRetweetedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXRetweetedView.m; sourceTree = "<group>"; };
+		1500E3761E13B31000B10148 /* ZLXStatusOriginalFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXStatusOriginalFrame.h; sourceTree = "<group>"; };
+		1500E3771E13B31000B10148 /* ZLXStatusOriginalFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXStatusOriginalFrame.m; sourceTree = "<group>"; };
+		1500E3791E13B34500B10148 /* ZLXStatusReweetedFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXStatusReweetedFrame.h; sourceTree = "<group>"; };
+		1500E37A1E13B34500B10148 /* ZLXStatusReweetedFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXStatusReweetedFrame.m; sourceTree = "<group>"; };
+		1500E37C1E13B35C00B10148 /* ZLXStatusDetailFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXStatusDetailFrame.h; sourceTree = "<group>"; };
+		1500E37D1E13B35C00B10148 /* ZLXStatusDetailFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXStatusDetailFrame.m; sourceTree = "<group>"; };
+		1500E37F1E13B45900B10148 /* ZLXStatusFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXStatusFrame.h; sourceTree = "<group>"; };
+		1500E3801E13B45900B10148 /* ZLXStatusFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXStatusFrame.m; sourceTree = "<group>"; };
+		150BAA221E14E03D0010F867 /* NSDate+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MJ.h"; sourceTree = "<group>"; };
+		150BAA231E14E03D0010F867 /* NSDate+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MJ.m"; sourceTree = "<group>"; };
+		150BAA251E150C470010F867 /* ZLXStatusToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLXStatusToolBar.xib; sourceTree = "<group>"; };
+		152294F21E29B7650011929D /* ZLXStatusLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXStatusLabel.h; sourceTree = "<group>"; };
+		152294F31E29B7650011929D /* ZLXStatusLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXStatusLabel.m; sourceTree = "<group>"; };
+		152C94281E304FFB0016E6D4 /* ZLXStatusDetailTopBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLXStatusDetailTopBar.xib; sourceTree = "<group>"; };
+		152C942B1E30ACE40016E6D4 /* ZLXBaseParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZLXBaseParam.h; path = Model/ZLXBaseParam.h; sourceTree = "<group>"; };
+		152C942C1E30ACE40016E6D4 /* ZLXBaseParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZLXBaseParam.m; path = Model/ZLXBaseParam.m; sourceTree = "<group>"; };
+		152C942E1E30AD6B0016E6D4 /* ZLXCommentParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXCommentParam.h; sourceTree = "<group>"; };
+		152C942F1E30AD6B0016E6D4 /* ZLXCommentParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXCommentParam.m; sourceTree = "<group>"; };
+		152C94311E30B09D0016E6D4 /* ZLXComments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXComments.h; sourceTree = "<group>"; };
+		152C94321E30B09D0016E6D4 /* ZLXComments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXComments.m; sourceTree = "<group>"; };
+		152C94371E30B6400016E6D4 /* ZLXCommentResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXCommentResult.h; sourceTree = "<group>"; };
+		152C94381E30B6400016E6D4 /* ZLXCommentResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXCommentResult.m; sourceTree = "<group>"; };
+		152E62A81E2EF73B0033BD1D /* ZLXCommonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXCommonController.h; sourceTree = "<group>"; };
+		152E62A91E2EF73B0033BD1D /* ZLXCommonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXCommonController.m; sourceTree = "<group>"; };
+		15350D1D1E2CC4BF00BED57D /* ZLXCommonLabelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXCommonLabelItem.h; sourceTree = "<group>"; };
+		15350D1E1E2CC4BF00BED57D /* ZLXCommonLabelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXCommonLabelItem.m; sourceTree = "<group>"; };
+		15435DC31E1E19680066D2D3 /* EmotionIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EmotionIcons; sourceTree = "<group>"; };
+		15435DC51E1E2A820066D2D3 /* ZLXEmotionGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXEmotionGridView.h; sourceTree = "<group>"; };
+		15435DC61E1E2A820066D2D3 /* ZLXEmotionGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXEmotionGridView.m; sourceTree = "<group>"; };
+		15435DC81E1E3D020066D2D3 /* ZLXEmotionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXEmotionModel.h; sourceTree = "<group>"; };
+		15435DC91E1E3D020066D2D3 /* ZLXEmotionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXEmotionModel.m; sourceTree = "<group>"; };
+		1555C4E41E63B5860009DE8A /* ZLXHomeCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXHomeCacheTool.h; sourceTree = "<group>"; };
+		1555C4E51E63B5860009DE8A /* ZLXHomeCacheTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXHomeCacheTool.m; sourceTree = "<group>"; };
+		155E6D5A1E0CB51E005BBB4A /* ZLXOAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXOAuthController.h; sourceTree = "<group>"; };
+		155E6D5B1E0CB51E005BBB4A /* ZLXOAuthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXOAuthController.m; sourceTree = "<group>"; };
+		155E6D5D1E0CC814005BBB4A /* ZLXAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXAccount.h; sourceTree = "<group>"; };
+		155E6D5E1E0CC814005BBB4A /* ZLXAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXAccount.m; sourceTree = "<group>"; };
+		155E6D601E0CCDA2005BBB4A /* ZLXAccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXAccountTool.h; sourceTree = "<group>"; };
+		155E6D611E0CCDA2005BBB4A /* ZLXAccountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXAccountTool.m; sourceTree = "<group>"; };
+		155E6D641E0CD064005BBB4A /* ZLXNewFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXNewFeature.h; sourceTree = "<group>"; };
+		155E6D651E0CD064005BBB4A /* ZLXNewFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXNewFeature.m; sourceTree = "<group>"; };
+		155E6D691E0CF97D005BBB4A /* ZLXHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXHttpTool.h; sourceTree = "<group>"; };
+		155E6D6A1E0CF97D005BBB4A /* ZLXHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXHttpTool.m; sourceTree = "<group>"; };
+		155E6D6F1E0CFDFC005BBB4A /* ZLXUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXUser.h; sourceTree = "<group>"; };
+		155E6D701E0CFDFC005BBB4A /* ZLXUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXUser.m; sourceTree = "<group>"; };
+		155E6D721E0CFE6E005BBB4A /* ZLXStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXStatus.h; sourceTree = "<group>"; };
+		155E6D731E0CFE6E005BBB4A /* ZLXStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXStatus.m; sourceTree = "<group>"; };
+		155E6D751E0D0186005BBB4A /* ZLXPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXPicture.h; sourceTree = "<group>"; };
+		155E6D761E0D0186005BBB4A /* ZLXPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXPicture.m; sourceTree = "<group>"; };
+		1564B1D61E2C68D00018E3F4 /* ZLXCommonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXCommonItem.h; sourceTree = "<group>"; };
+		1564B1D71E2C68D00018E3F4 /* ZLXCommonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXCommonItem.m; sourceTree = "<group>"; };
+		1564B1D91E2C69840018E3F4 /* ZLXCommonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXCommonGroup.h; sourceTree = "<group>"; };
+		1564B1DA1E2C69840018E3F4 /* ZLXCommonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXCommonGroup.m; sourceTree = "<group>"; };
+		1564B1DF1E2C73DB0018E3F4 /* ZLXCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXCommonCell.h; sourceTree = "<group>"; };
+		1564B1E01E2C73DB0018E3F4 /* ZLXCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXCommonCell.m; sourceTree = "<group>"; };
+		1564B1E21E2CAA1E0018E3F4 /* ZLXCommonArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXCommonArrowItem.h; sourceTree = "<group>"; };
+		1564B1E31E2CAA1E0018E3F4 /* ZLXCommonArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXCommonArrowItem.m; sourceTree = "<group>"; };
+		1564B1E51E2CAA760018E3F4 /* ZLXCommonSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXCommonSwitch.h; sourceTree = "<group>"; };
+		1564B1E61E2CAA760018E3F4 /* ZLXCommonSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXCommonSwitch.m; sourceTree = "<group>"; };
+		156D94731E0A604F0091C29A /* ZLXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZLXMainViewController.h; path = ../../ZLXMainViewController.h; sourceTree = "<group>"; };
+		156D94741E0A604F0091C29A /* ZLXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZLXMainViewController.m; path = ../../ZLXMainViewController.m; sourceTree = "<group>"; };
+		156EE1191E1DCBA300B0AE5B /* ZLXEmotionToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXEmotionToolBar.h; sourceTree = "<group>"; };
+		156EE11A1E1DCBA300B0AE5B /* ZLXEmotionToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXEmotionToolBar.m; sourceTree = "<group>"; };
+		1593AE8B1E31F87D00DCDE20 /* ZLXReweetParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXReweetParam.h; sourceTree = "<group>"; };
+		1593AE8C1E31F87D00DCDE20 /* ZLXReweetParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXReweetParam.m; sourceTree = "<group>"; };
+		1593AE8E1E31F89300DCDE20 /* ZLXReweentResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXReweentResult.h; sourceTree = "<group>"; };
+		1593AE8F1E31F89300DCDE20 /* ZLXReweentResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXReweentResult.m; sourceTree = "<group>"; };
+		159E16D71E236FF7006F0D73 /* ZLXEmotionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXEmotionTool.h; sourceTree = "<group>"; };
+		159E16D81E236FF7006F0D73 /* ZLXEmotionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXEmotionTool.m; sourceTree = "<group>"; };
+		159E16DA1E238BC1006F0D73 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		159E16DB1E238BC1006F0D73 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		15B1B6F81E274E910083D4F2 /* ZLXEmotionAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXEmotionAttachment.h; sourceTree = "<group>"; };
+		15B1B6F91E274E910083D4F2 /* ZLXEmotionAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXEmotionAttachment.m; sourceTree = "<group>"; };
+		15B1B6FB1E277FC40083D4F2 /* ZLXRegexResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXRegexResult.h; sourceTree = "<group>"; };
+		15B1B6FC1E277FC40083D4F2 /* ZLXRegexResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXRegexResult.m; sourceTree = "<group>"; };
+		15BA071A1E16281100D1A228 /* ZLXStatusPhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXStatusPhotosView.h; sourceTree = "<group>"; };
+		15BA071B1E16281100D1A228 /* ZLXStatusPhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXStatusPhotosView.m; sourceTree = "<group>"; };
+		15BA071D1E1661D200D1A228 /* ZLXStatusPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXStatusPhotoView.h; sourceTree = "<group>"; };
+		15BA071E1E1661D200D1A228 /* ZLXStatusPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXStatusPhotoView.m; sourceTree = "<group>"; };
+		15BE45DD1E24CF0600263043 /* ZLXEmotionTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXEmotionTextView.h; sourceTree = "<group>"; };
+		15BE45DE1E24CF0600263043 /* ZLXEmotionTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXEmotionTextView.m; sourceTree = "<group>"; };
+		15C5094F1E2DE79E00995A7E /* ZLXBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXBadgeView.h; sourceTree = "<group>"; };
+		15C509501E2DE79E00995A7E /* ZLXBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXBadgeView.m; sourceTree = "<group>"; };
+		15D5C9A91E11F3E10043910C /* ZLXCompose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXCompose.h; sourceTree = "<group>"; };
+		15D5C9AA1E11F3E10043910C /* ZLXCompose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXCompose.m; sourceTree = "<group>"; };
+		15D5C9AC1E1263AD0043910C /* ZLXStatusResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXStatusResult.h; sourceTree = "<group>"; };
+		15D5C9AD1E1263AD0043910C /* ZLXStatusResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXStatusResult.m; sourceTree = "<group>"; };
+		15D5C9B01E1266450043910C /* ZLXStatusDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXStatusDataTool.h; sourceTree = "<group>"; };
+		15D5C9B11E1266450043910C /* ZLXStatusDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXStatusDataTool.m; sourceTree = "<group>"; };
+		15D5C9B31E12672D0043910C /* ZLXParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXParameter.h; sourceTree = "<group>"; };
+		15D5C9B41E12672D0043910C /* ZLXParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXParameter.m; sourceTree = "<group>"; };
+		15E96D331E2EFF5D009B4FA0 /* ZLXProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXProfileController.h; sourceTree = "<group>"; };
+		15E96D341E2EFF5D009B4FA0 /* ZLXProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXProfileController.m; sourceTree = "<group>"; };
+		15E96D3C1E2F0B36009B4FA0 /* ZLXStatusDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXStatusDetailViewController.h; sourceTree = "<group>"; };
+		15E96D3D1E2F0B36009B4FA0 /* ZLXStatusDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXStatusDetailViewController.m; sourceTree = "<group>"; };
+		15E96D431E2F3944009B4FA0 /* ZLXStatusDetailBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXStatusDetailBottomBar.h; sourceTree = "<group>"; };
+		15E96D441E2F3944009B4FA0 /* ZLXStatusDetailBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXStatusDetailBottomBar.m; sourceTree = "<group>"; };
+		15E96D461E2F3B9A009B4FA0 /* ZLXStatusDetailTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXStatusDetailTopBar.h; sourceTree = "<group>"; };
+		15E96D471E2F3B9A009B4FA0 /* ZLXStatusDetailTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXStatusDetailTopBar.m; sourceTree = "<group>"; };
+		15EF6DAC1E0B5D3B00DFEE6E /* ZLXHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXHomeController.h; sourceTree = "<group>"; };
+		15EF6DAD1E0B5D3B00DFEE6E /* ZLXHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXHomeController.m; sourceTree = "<group>"; };
+		15EF6DAF1E0B5D4A00DFEE6E /* ZLXMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXMessageController.h; sourceTree = "<group>"; };
+		15EF6DB01E0B5D4A00DFEE6E /* ZLXMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXMessageController.m; sourceTree = "<group>"; };
+		15EF6DB21E0B5D5900DFEE6E /* ZLXDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXDiscoverController.h; sourceTree = "<group>"; };
+		15EF6DB31E0B5D5900DFEE6E /* ZLXDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXDiscoverController.m; sourceTree = "<group>"; };
+		15EF6DB91E0B5F1100DFEE6E /* UIImage+ZLX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZLX.h"; sourceTree = "<group>"; };
+		15EF6DBA1E0B5F1100DFEE6E /* UIImage+ZLX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZLX.m"; sourceTree = "<group>"; };
+		15EF6DBC1E0B607300DFEE6E /* ZLXMainTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXMainTabBar.h; sourceTree = "<group>"; };
+		15EF6DBD1E0B607300DFEE6E /* ZLXMainTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXMainTabBar.m; sourceTree = "<group>"; };
+		15EF6DBF1E0B672700DFEE6E /* UIView+ZLX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZLX.h"; sourceTree = "<group>"; };
+		15EF6DC01E0B672700DFEE6E /* UIView+ZLX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZLX.m"; sourceTree = "<group>"; };
+		15EF6DC21E0B675E00DFEE6E /* ZLXHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLXHeader.h; sourceTree = "<group>"; };
+		15EF6DC31E0B67AC00DFEE6E /* ZLXConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXConst.h; sourceTree = "<group>"; };
+		15EF6DC41E0B67AC00DFEE6E /* ZLXConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXConst.m; sourceTree = "<group>"; };
+		15EF6DC61E0B7A5B00DFEE6E /* ZLXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXNavigationController.h; sourceTree = "<group>"; };
+		15EF6DC71E0B7A5B00DFEE6E /* ZLXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXNavigationController.m; sourceTree = "<group>"; };
+		15EF6DCC1E0B7AF100DFEE6E /* UIBarButtonItem+ZLX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZLX.h"; sourceTree = "<group>"; };
+		15EF6DCD1E0B7AF100DFEE6E /* UIBarButtonItem+ZLX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZLX.m"; sourceTree = "<group>"; };
+		15EF6DCF1E0BAF9B00DFEE6E /* ZLXTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXTextField.h; sourceTree = "<group>"; };
+		15EF6DD01E0BAF9B00DFEE6E /* ZLXTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXTextField.m; sourceTree = "<group>"; };
+		15EF6DD21E0BB4FF00DFEE6E /* ZLXNewFeatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXNewFeatureController.h; sourceTree = "<group>"; };
+		15EF6DD31E0BB4FF00DFEE6E /* ZLXNewFeatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXNewFeatureController.m; sourceTree = "<group>"; };
+		15F128481E1F6DE5007AC427 /* ZLXEmotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXEmotionView.h; sourceTree = "<group>"; };
+		15F128491E1F6DE5007AC427 /* ZLXEmotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXEmotionView.m; sourceTree = "<group>"; };
+		15F1284B1E1F8F87007AC427 /* ZLXEmotionPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXEmotionPopView.h; sourceTree = "<group>"; };
+		15F1284C1E1F8F87007AC427 /* ZLXEmotionPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXEmotionPopView.m; sourceTree = "<group>"; };
+		15F1284E1E1F903A007AC427 /* ZLXEmotionPopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLXEmotionPopView.xib; sourceTree = "<group>"; };
+		15F30E8C1E0A5FD10069D0CE /* 微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15F30E901E0A5FD10069D0CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15F30E921E0A5FD10069D0CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15F30E931E0A5FD10069D0CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15F30E991E0A5FD10069D0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15F30E9B1E0A5FD10069D0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15F30E9E1E0A5FD10069D0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15F30EA01E0A5FD10069D0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15F30EA51E0A5FD10069D0CE /* 微博Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微博Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15F30EA91E0A5FD10069D0CE /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		15F30EAB1E0A5FD10069D0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15F30EB01E0A5FD10069D0CE /* 微博UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微博UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15F30EB41E0A5FD10069D0CE /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
+		15F30EB61E0A5FD10069D0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15F5FCD01E1CA97F0015F697 /* ZLXEmotionKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXEmotionKeyboard.h; sourceTree = "<group>"; };
+		15F5FCD11E1CA97F0015F697 /* ZLXEmotionKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXEmotionKeyboard.m; sourceTree = "<group>"; };
+		15F5FCD41E1CC3630015F697 /* ZLXEmotionlistView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXEmotionlistView.h; sourceTree = "<group>"; };
+		15F5FCD51E1CC3630015F697 /* ZLXEmotionlistView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXEmotionlistView.m; sourceTree = "<group>"; };
+		15F8E2CD1E2A0A2600D5733F /* ZLXLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXLink.h; sourceTree = "<group>"; };
+		15F8E2CE1E2A0A2600D5733F /* ZLXLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXLink.m; sourceTree = "<group>"; };
+		15FB16DF1E10A7FF00B0B0F9 /* ZLXComposeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXComposeController.h; sourceTree = "<group>"; };
+		15FB16E01E10A7FF00B0B0F9 /* ZLXComposeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXComposeController.m; sourceTree = "<group>"; };
+		15FB16E21E10ADCF00B0B0F9 /* ZLXTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXTextView.h; sourceTree = "<group>"; };
+		15FB16E31E10ADCF00B0B0F9 /* ZLXTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXTextView.m; sourceTree = "<group>"; };
+		15FB16E51E10E2DA00B0B0F9 /* ZLXToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXToolBar.h; sourceTree = "<group>"; };
+		15FB16E61E10E2DA00B0B0F9 /* ZLXToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXToolBar.m; sourceTree = "<group>"; };
+		2723D133251F1A387CDB2727 /* Pods-微博Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-微博Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-微博Tests/Pods-微博Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		27B103E49836162479939161 /* libPods-微博Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-微博Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39227DB7512A3E96987C8911 /* libPods-微博.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-微博.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B191F399FCC85FD83E6075 /* libPods-微博UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-微博UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E97EC3E15D1D5C1FBA23624 /* Pods-微博.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-微博.release.xcconfig"; path = "Pods/Target Support Files/Pods-微博/Pods-微博.release.xcconfig"; sourceTree = "<group>"; };
+		A09D312B3A204D0520F050DF /* Pods-微博UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-微博UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-微博UITests/Pods-微博UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC9FEEBBCBAE77BB83972CAA /* Pods-微博.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-微博.debug.xcconfig"; path = "Pods/Target Support Files/Pods-微博/Pods-微博.debug.xcconfig"; sourceTree = "<group>"; };
+		DFB86F788840675AA7BCC9EF /* Pods-微博UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-微博UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-微博UITests/Pods-微博UITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15F30E891E0A5FD10069D0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8057428FAC81BCDFCFBE9F99 /* libPods-微博.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15F30EA21E0A5FD10069D0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71182E41FC2EAD4B8AE39641 /* libPods-微博Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15F30EAD1E0A5FD10069D0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB92818B876D8E96453C90FD /* libPods-微博UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1500E3601E1389EC00B10148 /* UnderCount */ = {
+			isa = PBXGroup;
+			children = (
+				1500E3611E138A1300B10148 /* ZLXUnderCount.h */,
+				1500E3621E138A1300B10148 /* ZLXUnderCount.m */,
+				1500E3651E138A7300B10148 /* ZLXUnderCountResult.h */,
+				1500E3661E138A7300B10148 /* ZLXUnderCountResult.m */,
+			);
+			name = UnderCount;
+			sourceTree = "<group>";
+		};
+		1500E3741E13A63800B10148 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1500E3541E13468300B10148 /* ZLXStatusCell.h */,
+				1500E3551E13468300B10148 /* ZLXStatusCell.m */,
+				1500E3681E13A3E600B10148 /* ZLXStatusDetailView.h */,
+				1500E3691E13A3E600B10148 /* ZLXStatusDetailView.m */,
+				1500E36B1E13A3FC00B10148 /* ZLXStatusToolBar.h */,
+				1500E36C1E13A3FC00B10148 /* ZLXStatusToolBar.m */,
+				150BAA251E150C470010F867 /* ZLXStatusToolBar.xib */,
+				1500E36E1E13A58700B10148 /* ZLXStatusOriginalView.h */,
+				1500E36F1E13A58700B10148 /* ZLXStatusOriginalView.m */,
+				1500E3711E13A5D200B10148 /* ZLXRetweetedView.h */,
+				1500E3721E13A5D200B10148 /* ZLXRetweetedView.m */,
+				15BA071A1E16281100D1A228 /* ZLXStatusPhotosView.h */,
+				15BA071B1E16281100D1A228 /* ZLXStatusPhotosView.m */,
+				15BA071D1E1661D200D1A228 /* ZLXStatusPhotoView.h */,
+				15BA071E1E1661D200D1A228 /* ZLXStatusPhotoView.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		1500E3751E13B2E600B10148 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1500E37F1E13B45900B10148 /* ZLXStatusFrame.h */,
+				1500E3801E13B45900B10148 /* ZLXStatusFrame.m */,
+				1500E3761E13B31000B10148 /* ZLXStatusOriginalFrame.h */,
+				1500E3771E13B31000B10148 /* ZLXStatusOriginalFrame.m */,
+				1500E3791E13B34500B10148 /* ZLXStatusReweetedFrame.h */,
+				1500E37A1E13B34500B10148 /* ZLXStatusReweetedFrame.m */,
+				1500E37C1E13B35C00B10148 /* ZLXStatusDetailFrame.h */,
+				1500E37D1E13B35C00B10148 /* ZLXStatusDetailFrame.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		150BAA211E14D7D90010F867 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				15D5C9AC1E1263AD0043910C /* ZLXStatusResult.h */,
+				15D5C9AD1E1263AD0043910C /* ZLXStatusResult.m */,
+				155E6D721E0CFE6E005BBB4A /* ZLXStatus.h */,
+				155E6D731E0CFE6E005BBB4A /* ZLXStatus.m */,
+				155E6D6F1E0CFDFC005BBB4A /* ZLXUser.h */,
+				155E6D701E0CFDFC005BBB4A /* ZLXUser.m */,
+				155E6D751E0D0186005BBB4A /* ZLXPicture.h */,
+				155E6D761E0D0186005BBB4A /* ZLXPicture.m */,
+				15D5C9B31E12672D0043910C /* ZLXParameter.h */,
+				15D5C9B41E12672D0043910C /* ZLXParameter.m */,
+				1500E3571E135AB700B10148 /* ZLXUserParameter.h */,
+				1500E3581E135AB700B10148 /* ZLXUserParameter.m */,
+				1500E35A1E135B5300B10148 /* ZLXUserInfoResult.h */,
+				1500E35B1E135B5300B10148 /* ZLXUserInfoResult.m */,
+				15B1B6FB1E277FC40083D4F2 /* ZLXRegexResult.h */,
+				15B1B6FC1E277FC40083D4F2 /* ZLXRegexResult.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		152C942A1E30AC010016E6D4 /* CommnetModel */ = {
+			isa = PBXGroup;
+			children = (
+				152C942E1E30AD6B0016E6D4 /* ZLXCommentParam.h */,
+				152C942F1E30AD6B0016E6D4 /* ZLXCommentParam.m */,
+				152C94311E30B09D0016E6D4 /* ZLXComments.h */,
+				152C94321E30B09D0016E6D4 /* ZLXComments.m */,
+				152C94371E30B6400016E6D4 /* ZLXCommentResult.h */,
+				152C94381E30B6400016E6D4 /* ZLXCommentResult.m */,
+			);
+			name = CommnetModel;
+			sourceTree = "<group>";
+		};
+		155E6D631E0CD046005BBB4A /* 工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				155E6D681E0CF968005BBB4A /* 网络工具类 */,
+				155E6D671E0CF94E005BBB4A /* 其他工具类 */,
+			);
+			name = "工具类";
+			sourceTree = "<group>";
+		};
+		155E6D671E0CF94E005BBB4A /* 其他工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				15EF6DC21E0B675E00DFEE6E /* ZLXHeader.h */,
+				15EF6DC31E0B67AC00DFEE6E /* ZLXConst.h */,
+				15EF6DC41E0B67AC00DFEE6E /* ZLXConst.m */,
+				155E6D641E0CD064005BBB4A /* ZLXNewFeature.h */,
+				155E6D651E0CD064005BBB4A /* ZLXNewFeature.m */,
+			);
+			name = "其他工具类";
+			sourceTree = "<group>";
+		};
+		155E6D681E0CF968005BBB4A /* 网络工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				155E6D691E0CF97D005BBB4A /* ZLXHttpTool.h */,
+				155E6D6A1E0CF97D005BBB4A /* ZLXHttpTool.m */,
+			);
+			name = "网络工具类";
+			sourceTree = "<group>";
+		};
+		1593AE8A1E31F83100DCDE20 /* ReweentModel */ = {
+			isa = PBXGroup;
+			children = (
+				1593AE8B1E31F87D00DCDE20 /* ZLXReweetParam.h */,
+				1593AE8C1E31F87D00DCDE20 /* ZLXReweetParam.m */,
+				1593AE8E1E31F89300DCDE20 /* ZLXReweentResult.h */,
+				1593AE8F1E31F89300DCDE20 /* ZLXReweentResult.m */,
+			);
+			name = ReweentModel;
+			sourceTree = "<group>";
+		};
+		15D5C9AF1E1266230043910C /* 首页的工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				15D5C9B01E1266450043910C /* ZLXStatusDataTool.h */,
+				15D5C9B11E1266450043910C /* ZLXStatusDataTool.m */,
+				1555C4E41E63B5860009DE8A /* ZLXHomeCacheTool.h */,
+				1555C4E51E63B5860009DE8A /* ZLXHomeCacheTool.m */,
+				1500E35D1E135B8B00B10148 /* ZLXUserTool.h */,
+				1500E35E1E135B8B00B10148 /* ZLXUserTool.m */,
+				152C942B1E30ACE40016E6D4 /* ZLXBaseParam.h */,
+				152C942C1E30ACE40016E6D4 /* ZLXBaseParam.m */,
+			);
+			name = "首页的工具类";
+			sourceTree = "<group>";
+		};
+		15E96D3F1E2F1ADF009B4FA0 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				15E96D431E2F3944009B4FA0 /* ZLXStatusDetailBottomBar.h */,
+				15E96D441E2F3944009B4FA0 /* ZLXStatusDetailBottomBar.m */,
+				15E96D461E2F3B9A009B4FA0 /* ZLXStatusDetailTopBar.h */,
+				15E96D471E2F3B9A009B4FA0 /* ZLXStatusDetailTopBar.m */,
+				152C94281E304FFB0016E6D4 /* ZLXStatusDetailTopBar.xib */,
+			);
+			name = DetailView;
+			sourceTree = "<group>";
+		};
+		15EF6D891E0B5ADD00DFEE6E /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				1500E3601E1389EC00B10148 /* UnderCount */,
+				15EF6D8A1E0B5ADD00DFEE6E /* Controller */,
+				15EF6D8B1E0B5ADD00DFEE6E /* Model */,
+				15EF6D8C1E0B5ADD00DFEE6E /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		15EF6D8A1E0B5ADD00DFEE6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				156D94731E0A604F0091C29A /* ZLXMainViewController.h */,
+				156D94741E0A604F0091C29A /* ZLXMainViewController.m */,
+				15EF6DC61E0B7A5B00DFEE6E /* ZLXNavigationController.h */,
+				15EF6DC71E0B7A5B00DFEE6E /* ZLXNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15EF6D8B1E0B5ADD00DFEE6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15EF6D8C1E0B5ADD00DFEE6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15EF6DBC1E0B607300DFEE6E /* ZLXMainTabBar.h */,
+				15EF6DBD1E0B607300DFEE6E /* ZLXMainTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15EF6D8D1E0B5AFA00DFEE6E /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				15D5C9AF1E1266230043910C /* 首页的工具类 */,
+				15EF6D8E1E0B5AFA00DFEE6E /* Controller */,
+				15EF6D8F1E0B5AFA00DFEE6E /* Model */,
+				15EF6D901E0B5AFA00DFEE6E /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		15EF6D8E1E0B5AFA00DFEE6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15EF6DAC1E0B5D3B00DFEE6E /* ZLXHomeController.h */,
+				15EF6DAD1E0B5D3B00DFEE6E /* ZLXHomeController.m */,
+				15E96D3C1E2F0B36009B4FA0 /* ZLXStatusDetailViewController.h */,
+				15E96D3D1E2F0B36009B4FA0 /* ZLXStatusDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15EF6D8F1E0B5AFA00DFEE6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1593AE8A1E31F83100DCDE20 /* ReweentModel */,
+				152C942A1E30AC010016E6D4 /* CommnetModel */,
+				1500E3751E13B2E600B10148 /* ViewModel */,
+				150BAA211E14D7D90010F867 /* DataModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15EF6D901E0B5AFA00DFEE6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15E96D3F1E2F1ADF009B4FA0 /* DetailView */,
+				1500E3741E13A63800B10148 /* Cell */,
+				152294F21E29B7650011929D /* ZLXStatusLabel.h */,
+				152294F31E29B7650011929D /* ZLXStatusLabel.m */,
+				15F8E2CD1E2A0A2600D5733F /* ZLXLink.h */,
+				15F8E2CE1E2A0A2600D5733F /* ZLXLink.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15EF6D911E0B5B1100DFEE6E /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				15EF6D921E0B5B1100DFEE6E /* Controller */,
+				15EF6D931E0B5B1100DFEE6E /* Model */,
+				15EF6D941E0B5B1100DFEE6E /* View */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		15EF6D921E0B5B1100DFEE6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15EF6DAF1E0B5D4A00DFEE6E /* ZLXMessageController.h */,
+				15EF6DB01E0B5D4A00DFEE6E /* ZLXMessageController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15EF6D931E0B5B1100DFEE6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15EF6D941E0B5B1100DFEE6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15EF6D951E0B5B4A00DFEE6E /* Disvover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				15EF6D961E0B5B4A00DFEE6E /* Controller */,
+				15EF6D971E0B5B4A00DFEE6E /* Model */,
+				15EF6D981E0B5B4A00DFEE6E /* View */,
+			);
+			name = "Disvover(发现)";
+			path = "Disvover(消息)";
+			sourceTree = "<group>";
+		};
+		15EF6D961E0B5B4A00DFEE6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15EF6DB21E0B5D5900DFEE6E /* ZLXDiscoverController.h */,
+				15EF6DB31E0B5D5900DFEE6E /* ZLXDiscoverController.m */,
+				152E62A81E2EF73B0033BD1D /* ZLXCommonController.h */,
+				152E62A91E2EF73B0033BD1D /* ZLXCommonController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15EF6D971E0B5B4A00DFEE6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1564B1D91E2C69840018E3F4 /* ZLXCommonGroup.h */,
+				1564B1DA1E2C69840018E3F4 /* ZLXCommonGroup.m */,
+				1564B1D61E2C68D00018E3F4 /* ZLXCommonItem.h */,
+				1564B1D71E2C68D00018E3F4 /* ZLXCommonItem.m */,
+				1564B1E51E2CAA760018E3F4 /* ZLXCommonSwitch.h */,
+				1564B1E61E2CAA760018E3F4 /* ZLXCommonSwitch.m */,
+				1564B1E21E2CAA1E0018E3F4 /* ZLXCommonArrowItem.h */,
+				1564B1E31E2CAA1E0018E3F4 /* ZLXCommonArrowItem.m */,
+				15350D1D1E2CC4BF00BED57D /* ZLXCommonLabelItem.h */,
+				15350D1E1E2CC4BF00BED57D /* ZLXCommonLabelItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15EF6D981E0B5B4A00DFEE6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15EF6DCF1E0BAF9B00DFEE6E /* ZLXTextField.h */,
+				15EF6DD01E0BAF9B00DFEE6E /* ZLXTextField.m */,
+				1564B1DF1E2C73DB0018E3F4 /* ZLXCommonCell.h */,
+				1564B1E01E2C73DB0018E3F4 /* ZLXCommonCell.m */,
+				15C5094F1E2DE79E00995A7E /* ZLXBadgeView.h */,
+				15C509501E2DE79E00995A7E /* ZLXBadgeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15EF6D991E0B5B6400DFEE6E /* Profile(我) */ = {
+			isa = PBXGroup;
+			children = (
+				15EF6D9A1E0B5B6400DFEE6E /* Controller */,
+				15EF6D9B1E0B5B6400DFEE6E /* Model */,
+				15EF6D9C1E0B5B6400DFEE6E /* View */,
+			);
+			path = "Profile(我)";
+			sourceTree = "<group>";
+		};
+		15EF6D9A1E0B5B6400DFEE6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15E96D331E2EFF5D009B4FA0 /* ZLXProfileController.h */,
+				15E96D341E2EFF5D009B4FA0 /* ZLXProfileController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15EF6D9B1E0B5B6400DFEE6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15EF6D9C1E0B5B6400DFEE6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15EF6D9D1E0B5B7900DFEE6E /* Compose(发微博) */ = {
+			isa = PBXGroup;
+			children = (
+				15EF6D9E1E0B5B7900DFEE6E /* Controller */,
+				15EF6D9F1E0B5B7900DFEE6E /* Model */,
+				15EF6DA01E0B5B7900DFEE6E /* View */,
+			);
+			path = "Compose(发微博)";
+			sourceTree = "<group>";
+		};
+		15EF6D9E1E0B5B7900DFEE6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15FB16DF1E10A7FF00B0B0F9 /* ZLXComposeController.h */,
+				15FB16E01E10A7FF00B0B0F9 /* ZLXComposeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15EF6D9F1E0B5B7900DFEE6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15435DC81E1E3D020066D2D3 /* ZLXEmotionModel.h */,
+				15435DC91E1E3D020066D2D3 /* ZLXEmotionModel.m */,
+				159E16D71E236FF7006F0D73 /* ZLXEmotionTool.h */,
+				159E16D81E236FF7006F0D73 /* ZLXEmotionTool.m */,
+				15B1B6F81E274E910083D4F2 /* ZLXEmotionAttachment.h */,
+				15B1B6F91E274E910083D4F2 /* ZLXEmotionAttachment.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15EF6DA01E0B5B7900DFEE6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15F5FCD31E1CBD990015F697 /* EmotionKeyboard */,
+				15FB16E21E10ADCF00B0B0F9 /* ZLXTextView.h */,
+				15FB16E31E10ADCF00B0B0F9 /* ZLXTextView.m */,
+				15FB16E51E10E2DA00B0B0F9 /* ZLXToolBar.h */,
+				15FB16E61E10E2DA00B0B0F9 /* ZLXToolBar.m */,
+				15D5C9A91E11F3E10043910C /* ZLXCompose.h */,
+				15D5C9AA1E11F3E10043910C /* ZLXCompose.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15EF6DA11E0B5B8A00DFEE6E /* Newfeature(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				15EF6DA21E0B5B8A00DFEE6E /* Controller */,
+				15EF6DA31E0B5B8A00DFEE6E /* Model */,
+				15EF6DA41E0B5B8A00DFEE6E /* View */,
+			);
+			path = "Newfeature(新特性)";
+			sourceTree = "<group>";
+		};
+		15EF6DA21E0B5B8A00DFEE6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15EF6DD21E0BB4FF00DFEE6E /* ZLXNewFeatureController.h */,
+				15EF6DD31E0BB4FF00DFEE6E /* ZLXNewFeatureController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15EF6DA31E0B5B8A00DFEE6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15EF6DA41E0B5B8A00DFEE6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15EF6DA51E0B5B9700DFEE6E /* OAuth(授权) */ = {
+			isa = PBXGroup;
+			children = (
+				15EF6DA61E0B5B9700DFEE6E /* Controller */,
+				15EF6DA71E0B5B9700DFEE6E /* Model */,
+				15EF6DA81E0B5B9700DFEE6E /* View */,
+			);
+			path = "OAuth(授权)";
+			sourceTree = "<group>";
+		};
+		15EF6DA61E0B5B9700DFEE6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				155E6D5A1E0CB51E005BBB4A /* ZLXOAuthController.h */,
+				155E6D5B1E0CB51E005BBB4A /* ZLXOAuthController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15EF6DA71E0B5B9700DFEE6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				155E6D5D1E0CC814005BBB4A /* ZLXAccount.h */,
+				155E6D5E1E0CC814005BBB4A /* ZLXAccount.m */,
+				155E6D601E0CCDA2005BBB4A /* ZLXAccountTool.h */,
+				155E6D611E0CCDA2005BBB4A /* ZLXAccountTool.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15EF6DA81E0B5B9700DFEE6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15EF6DB81E0B5EFA00DFEE6E /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				159E16DA1E238BC1006F0D73 /* NSString+Emoji.h */,
+				159E16DB1E238BC1006F0D73 /* NSString+Emoji.m */,
+				15EF6DBF1E0B672700DFEE6E /* UIView+ZLX.h */,
+				15EF6DC01E0B672700DFEE6E /* UIView+ZLX.m */,
+				15EF6DB91E0B5F1100DFEE6E /* UIImage+ZLX.h */,
+				15EF6DBA1E0B5F1100DFEE6E /* UIImage+ZLX.m */,
+				15EF6DCC1E0B7AF100DFEE6E /* UIBarButtonItem+ZLX.h */,
+				15EF6DCD1E0B7AF100DFEE6E /* UIBarButtonItem+ZLX.m */,
+				150BAA221E14E03D0010F867 /* NSDate+MJ.h */,
+				150BAA231E14E03D0010F867 /* NSDate+MJ.m */,
+			);
+			name = "分类";
+			sourceTree = "<group>";
+		};
+		15F30E831E0A5FD10069D0CE = {
+			isa = PBXGroup;
+			children = (
+				15F30E8E1E0A5FD10069D0CE /* 微博 */,
+				15F30EA81E0A5FD10069D0CE /* 微博Tests */,
+				15F30EB31E0A5FD10069D0CE /* 微博UITests */,
+				15F30E8D1E0A5FD10069D0CE /* Products */,
+				F5856163A88240626EAF13FB /* Pods */,
+				BEE936ED1AA53F8C1C019005 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15F30E8D1E0A5FD10069D0CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15F30E8C1E0A5FD10069D0CE /* 微博.app */,
+				15F30EA51E0A5FD10069D0CE /* 微博Tests.xctest */,
+				15F30EB01E0A5FD10069D0CE /* 微博UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15F30E8E1E0A5FD10069D0CE /* 微博 */ = {
+			isa = PBXGroup;
+			children = (
+				155E6D631E0CD046005BBB4A /* 工具类 */,
+				15EF6DB81E0B5EFA00DFEE6E /* 分类 */,
+				15EF6D891E0B5ADD00DFEE6E /* Main(主要) */,
+				15EF6D8D1E0B5AFA00DFEE6E /* Home(首页) */,
+				15EF6D911E0B5B1100DFEE6E /* Message(消息) */,
+				15EF6D951E0B5B4A00DFEE6E /* Disvover(发现) */,
+				15EF6D991E0B5B6400DFEE6E /* Profile(我) */,
+				15EF6D9D1E0B5B7900DFEE6E /* Compose(发微博) */,
+				15EF6DA51E0B5B9700DFEE6E /* OAuth(授权) */,
+				15EF6DA11E0B5B8A00DFEE6E /* Newfeature(新特性) */,
+				15F30E8F1E0A5FD10069D0CE /* Supporting Files */,
+			);
+			path = "微博";
+			sourceTree = "<group>";
+		};
+		15F30E8F1E0A5FD10069D0CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15435DC31E1E19680066D2D3 /* EmotionIcons */,
+				15F30E921E0A5FD10069D0CE /* AppDelegate.h */,
+				15F30E931E0A5FD10069D0CE /* AppDelegate.m */,
+				15F30E981E0A5FD10069D0CE /* Main.storyboard */,
+				15F30E9B1E0A5FD10069D0CE /* Assets.xcassets */,
+				15F30E9D1E0A5FD10069D0CE /* LaunchScreen.storyboard */,
+				15F30EA01E0A5FD10069D0CE /* Info.plist */,
+				15F30E901E0A5FD10069D0CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15F30EA81E0A5FD10069D0CE /* 微博Tests */ = {
+			isa = PBXGroup;
+			children = (
+				15F30EA91E0A5FD10069D0CE /* __Tests.m */,
+				15F30EAB1E0A5FD10069D0CE /* Info.plist */,
+			);
+			path = "微博Tests";
+			sourceTree = "<group>";
+		};
+		15F30EB31E0A5FD10069D0CE /* 微博UITests */ = {
+			isa = PBXGroup;
+			children = (
+				15F30EB41E0A5FD10069D0CE /* __UITests.m */,
+				15F30EB61E0A5FD10069D0CE /* Info.plist */,
+			);
+			path = "微博UITests";
+			sourceTree = "<group>";
+		};
+		15F5FCD31E1CBD990015F697 /* EmotionKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				156EE1191E1DCBA300B0AE5B /* ZLXEmotionToolBar.h */,
+				156EE11A1E1DCBA300B0AE5B /* ZLXEmotionToolBar.m */,
+				15F5FCD01E1CA97F0015F697 /* ZLXEmotionKeyboard.h */,
+				15F5FCD11E1CA97F0015F697 /* ZLXEmotionKeyboard.m */,
+				15F5FCD41E1CC3630015F697 /* ZLXEmotionlistView.h */,
+				15F5FCD51E1CC3630015F697 /* ZLXEmotionlistView.m */,
+				15435DC51E1E2A820066D2D3 /* ZLXEmotionGridView.h */,
+				15435DC61E1E2A820066D2D3 /* ZLXEmotionGridView.m */,
+				15F128481E1F6DE5007AC427 /* ZLXEmotionView.h */,
+				15F128491E1F6DE5007AC427 /* ZLXEmotionView.m */,
+				15F1284B1E1F8F87007AC427 /* ZLXEmotionPopView.h */,
+				15F1284C1E1F8F87007AC427 /* ZLXEmotionPopView.m */,
+				15F1284E1E1F903A007AC427 /* ZLXEmotionPopView.xib */,
+				15BE45DD1E24CF0600263043 /* ZLXEmotionTextView.h */,
+				15BE45DE1E24CF0600263043 /* ZLXEmotionTextView.m */,
+			);
+			name = EmotionKeyboard;
+			sourceTree = "<group>";
+		};
+		BEE936ED1AA53F8C1C019005 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39227DB7512A3E96987C8911 /* libPods-微博.a */,
+				27B103E49836162479939161 /* libPods-微博Tests.a */,
+				43B191F399FCC85FD83E6075 /* libPods-微博UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5856163A88240626EAF13FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC9FEEBBCBAE77BB83972CAA /* Pods-微博.debug.xcconfig */,
+				8E97EC3E15D1D5C1FBA23624 /* Pods-微博.release.xcconfig */,
+				2723D133251F1A387CDB2727 /* Pods-微博Tests.debug.xcconfig */,
+				12900593A76C5A649AFEFBCE /* Pods-微博Tests.release.xcconfig */,
+				A09D312B3A204D0520F050DF /* Pods-微博UITests.debug.xcconfig */,
+				DFB86F788840675AA7BCC9EF /* Pods-微博UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15F30E8B1E0A5FD10069D0CE /* 微博 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15F30EB91E0A5FD10069D0CE /* Build configuration list for PBXNativeTarget "微博" */;
+			buildPhases = (
+				E423123C2D385EF9BDB76D77 /* [CP] Check Pods Manifest.lock */,
+				15F30E881E0A5FD10069D0CE /* Sources */,
+				15F30E891E0A5FD10069D0CE /* Frameworks */,
+				15F30E8A1E0A5FD10069D0CE /* Resources */,
+				F3030D794060396AC54FB121 /* [CP] Embed Pods Frameworks */,
+				C6D26DE753B1F82BA3F3E1D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "微博";
+			productName = "微博";
+			productReference = 15F30E8C1E0A5FD10069D0CE /* 微博.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15F30EA41E0A5FD10069D0CE /* 微博Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15F30EBC1E0A5FD10069D0CE /* Build configuration list for PBXNativeTarget "微博Tests" */;
+			buildPhases = (
+				3097257AA2C76E20B04FB67E /* [CP] Check Pods Manifest.lock */,
+				15F30EA11E0A5FD10069D0CE /* Sources */,
+				15F30EA21E0A5FD10069D0CE /* Frameworks */,
+				15F30EA31E0A5FD10069D0CE /* Resources */,
+				3D5FF5E41DEA83A4C740280F /* [CP] Embed Pods Frameworks */,
+				091A070BB3FA8920006ADD65 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15F30EA71E0A5FD10069D0CE /* PBXTargetDependency */,
+			);
+			name = "微博Tests";
+			productName = "微博Tests";
+			productReference = 15F30EA51E0A5FD10069D0CE /* 微博Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15F30EAF1E0A5FD10069D0CE /* 微博UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15F30EBF1E0A5FD10069D0CE /* Build configuration list for PBXNativeTarget "微博UITests" */;
+			buildPhases = (
+				5680B347BD4CB413100AB071 /* [CP] Check Pods Manifest.lock */,
+				15F30EAC1E0A5FD10069D0CE /* Sources */,
+				15F30EAD1E0A5FD10069D0CE /* Frameworks */,
+				15F30EAE1E0A5FD10069D0CE /* Resources */,
+				E97EC729A963DA43E78C1859 /* [CP] Embed Pods Frameworks */,
+				7640594FBEEA193699547F5F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15F30EB21E0A5FD10069D0CE /* PBXTargetDependency */,
+			);
+			name = "微博UITests";
+			productName = "微博UITests";
+			productReference = 15F30EB01E0A5FD10069D0CE /* 微博UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15F30E841E0A5FD10069D0CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Lixin Zhou";
+				TargetAttributes = {
+					15F30E8B1E0A5FD10069D0CE = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = URHR6DYJ39;
+						ProvisioningStyle = Automatic;
+					};
+					15F30EA41E0A5FD10069D0CE = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = URHR6DYJ39;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 15F30E8B1E0A5FD10069D0CE;
+					};
+					15F30EAF1E0A5FD10069D0CE = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = URHR6DYJ39;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 15F30E8B1E0A5FD10069D0CE;
+					};
+				};
+			};
+			buildConfigurationList = 15F30E871E0A5FD10069D0CE /* Build configuration list for PBXProject "微博" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15F30E831E0A5FD10069D0CE;
+			productRefGroup = 15F30E8D1E0A5FD10069D0CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15F30E8B1E0A5FD10069D0CE /* 微博 */,
+				15F30EA41E0A5FD10069D0CE /* 微博Tests */,
+				15F30EAF1E0A5FD10069D0CE /* 微博UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15F30E8A1E0A5FD10069D0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152C94291E304FFB0016E6D4 /* ZLXStatusDetailTopBar.xib in Resources */,
+				15435DC41E1E19680066D2D3 /* EmotionIcons in Resources */,
+				15F1284F1E1F903A007AC427 /* ZLXEmotionPopView.xib in Resources */,
+				15F30E9F1E0A5FD10069D0CE /* LaunchScreen.storyboard in Resources */,
+				15F30E9C1E0A5FD10069D0CE /* Assets.xcassets in Resources */,
+				150BAA261E150C470010F867 /* ZLXStatusToolBar.xib in Resources */,
+				15F30E9A1E0A5FD10069D0CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15F30EA31E0A5FD10069D0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15F30EAE1E0A5FD10069D0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		091A070BB3FA8920006ADD65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-微博Tests/Pods-微博Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3097257AA2C76E20B04FB67E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D5FF5E41DEA83A4C740280F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-微博Tests/Pods-微博Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5680B347BD4CB413100AB071 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7640594FBEEA193699547F5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-微博UITests/Pods-微博UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6D26DE753B1F82BA3F3E1D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-微博/Pods-微博-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E423123C2D385EF9BDB76D77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E97EC729A963DA43E78C1859 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-微博UITests/Pods-微博UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3030D794060396AC54FB121 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-微博/Pods-微博-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15F30E881E0A5FD10069D0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E96D3E1E2F0B36009B4FA0 /* ZLXStatusDetailViewController.m in Sources */,
+				155E6D741E0CFE6E005BBB4A /* ZLXStatus.m in Sources */,
+				152294F41E29B7650011929D /* ZLXStatusLabel.m in Sources */,
+				15EF6DC51E0B67AC00DFEE6E /* ZLXConst.m in Sources */,
+				159E16DC1E238BC1006F0D73 /* NSString+Emoji.m in Sources */,
+				15BE45DF1E24CF0600263043 /* ZLXEmotionTextView.m in Sources */,
+				155E6D5F1E0CC814005BBB4A /* ZLXAccount.m in Sources */,
+				15F30E941E0A5FD10069D0CE /* AppDelegate.m in Sources */,
+				155E6D661E0CD064005BBB4A /* ZLXNewFeature.m in Sources */,
+				155E6D5C1E0CB51E005BBB4A /* ZLXOAuthController.m in Sources */,
+				15EF6DD11E0BAF9B00DFEE6E /* ZLXTextField.m in Sources */,
+				15EF6DB11E0B5D4A00DFEE6E /* ZLXMessageController.m in Sources */,
+				15EF6DBB1E0B5F1100DFEE6E /* UIImage+ZLX.m in Sources */,
+				155E6D6B1E0CF97D005BBB4A /* ZLXHttpTool.m in Sources */,
+				15435DCA1E1E3D020066D2D3 /* ZLXEmotionModel.m in Sources */,
+				155E6D771E0D0186005BBB4A /* ZLXPicture.m in Sources */,
+				1500E3591E135AB700B10148 /* ZLXUserParameter.m in Sources */,
+				15EF6DC11E0B672700DFEE6E /* UIView+ZLX.m in Sources */,
+				1564B1E11E2C73DB0018E3F4 /* ZLXCommonCell.m in Sources */,
+				15EF6DBE1E0B607300DFEE6E /* ZLXMainTabBar.m in Sources */,
+				15EF6DCE1E0B7AF100DFEE6E /* UIBarButtonItem+ZLX.m in Sources */,
+				1500E3731E13A5D200B10148 /* ZLXRetweetedView.m in Sources */,
+				1564B1E71E2CAA760018E3F4 /* ZLXCommonSwitch.m in Sources */,
+				1564B1D81E2C68D00018E3F4 /* ZLXCommonItem.m in Sources */,
+				15FB16E71E10E2DA00B0B0F9 /* ZLXToolBar.m in Sources */,
+				15EF6DAE1E0B5D3B00DFEE6E /* ZLXHomeController.m in Sources */,
+				155E6D621E0CCDA2005BBB4A /* ZLXAccountTool.m in Sources */,
+				152C942D1E30ACE40016E6D4 /* ZLXBaseParam.m in Sources */,
+				15FB16E11E10A7FF00B0B0F9 /* ZLXComposeController.m in Sources */,
+				156D94751E0A604F0091C29A /* ZLXMainViewController.m in Sources */,
+				15C509511E2DE79E00995A7E /* ZLXBadgeView.m in Sources */,
+				15D5C9B51E12672D0043910C /* ZLXParameter.m in Sources */,
+				152C94391E30B6400016E6D4 /* ZLXCommentResult.m in Sources */,
+				15B1B6FD1E277FC40083D4F2 /* ZLXRegexResult.m in Sources */,
+				1500E37B1E13B34500B10148 /* ZLXStatusReweetedFrame.m in Sources */,
+				155E6D711E0CFDFC005BBB4A /* ZLXUser.m in Sources */,
+				15F5FCD21E1CA97F0015F697 /* ZLXEmotionKeyboard.m in Sources */,
+				15F1284D1E1F8F87007AC427 /* ZLXEmotionPopView.m in Sources */,
+				15E96D351E2EFF5D009B4FA0 /* ZLXProfileController.m in Sources */,
+				15D5C9AE1E1263AD0043910C /* ZLXStatusResult.m in Sources */,
+				15E96D481E2F3B9A009B4FA0 /* ZLXStatusDetailTopBar.m in Sources */,
+				1593AE8D1E31F87D00DCDE20 /* ZLXReweetParam.m in Sources */,
+				15F30E911E0A5FD10069D0CE /* main.m in Sources */,
+				1500E35F1E135B8B00B10148 /* ZLXUserTool.m in Sources */,
+				15F8E2CF1E2A0A2600D5733F /* ZLXLink.m in Sources */,
+				1500E3561E13468300B10148 /* ZLXStatusCell.m in Sources */,
+				15350D1F1E2CC4BF00BED57D /* ZLXCommonLabelItem.m in Sources */,
+				1500E3701E13A58700B10148 /* ZLXStatusOriginalView.m in Sources */,
+				15FB16E41E10ADCF00B0B0F9 /* ZLXTextView.m in Sources */,
+				156EE11B1E1DCBA300B0AE5B /* ZLXEmotionToolBar.m in Sources */,
+				15F1284A1E1F6DE5007AC427 /* ZLXEmotionView.m in Sources */,
+				1500E36D1E13A3FC00B10148 /* ZLXStatusToolBar.m in Sources */,
+				1500E3811E13B45900B10148 /* ZLXStatusFrame.m in Sources */,
+				15F5FCD61E1CC3630015F697 /* ZLXEmotionlistView.m in Sources */,
+				152C94331E30B09D0016E6D4 /* ZLXComments.m in Sources */,
+				1500E3671E138A7300B10148 /* ZLXUnderCountResult.m in Sources */,
+				1564B1E41E2CAA1E0018E3F4 /* ZLXCommonArrowItem.m in Sources */,
+				1555C4E61E63B5860009DE8A /* ZLXHomeCacheTool.m in Sources */,
+				150BAA241E14E03D0010F867 /* NSDate+MJ.m in Sources */,
+				159E16D91E236FF7006F0D73 /* ZLXEmotionTool.m in Sources */,
+				152C94301E30AD6B0016E6D4 /* ZLXCommentParam.m in Sources */,
+				15E96D451E2F3944009B4FA0 /* ZLXStatusDetailBottomBar.m in Sources */,
+				15EF6DC81E0B7A5B00DFEE6E /* ZLXNavigationController.m in Sources */,
+				15BA071C1E16281100D1A228 /* ZLXStatusPhotosView.m in Sources */,
+				1564B1DB1E2C69840018E3F4 /* ZLXCommonGroup.m in Sources */,
+				1500E37E1E13B35C00B10148 /* ZLXStatusDetailFrame.m in Sources */,
+				15EF6DB41E0B5D5900DFEE6E /* ZLXDiscoverController.m in Sources */,
+				15D5C9B21E1266450043910C /* ZLXStatusDataTool.m in Sources */,
+				15EF6DD41E0BB4FF00DFEE6E /* ZLXNewFeatureController.m in Sources */,
+				1500E3631E138A1300B10148 /* ZLXUnderCount.m in Sources */,
+				15BA071F1E1661D200D1A228 /* ZLXStatusPhotoView.m in Sources */,
+				1500E3781E13B31000B10148 /* ZLXStatusOriginalFrame.m in Sources */,
+				1500E36A1E13A3E600B10148 /* ZLXStatusDetailView.m in Sources */,
+				15435DC71E1E2A820066D2D3 /* ZLXEmotionGridView.m in Sources */,
+				152E62AA1E2EF73B0033BD1D /* ZLXCommonController.m in Sources */,
+				15B1B6FA1E274E910083D4F2 /* ZLXEmotionAttachment.m in Sources */,
+				1593AE901E31F89300DCDE20 /* ZLXReweentResult.m in Sources */,
+				1500E35C1E135B5300B10148 /* ZLXUserInfoResult.m in Sources */,
+				15D5C9AB1E11F3E10043910C /* ZLXCompose.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15F30EA11E0A5FD10069D0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15F30EAA1E0A5FD10069D0CE /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15F30EAC1E0A5FD10069D0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15F30EB51E0A5FD10069D0CE /* __UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15F30EA71E0A5FD10069D0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15F30E8B1E0A5FD10069D0CE /* 微博 */;
+			targetProxy = 15F30EA61E0A5FD10069D0CE /* PBXContainerItemProxy */;
+		};
+		15F30EB21E0A5FD10069D0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15F30E8B1E0A5FD10069D0CE /* 微博 */;
+			targetProxy = 15F30EB11E0A5FD10069D0CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15F30E981E0A5FD10069D0CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15F30E991E0A5FD10069D0CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15F30E9D1E0A5FD10069D0CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15F30E9E1E0A5FD10069D0CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15F30EB71E0A5FD10069D0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15F30EB81E0A5FD10069D0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15F30EBA1E0A5FD10069D0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC9FEEBBCBAE77BB83972CAA /* Pods-微博.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = URHR6DYJ39;
+				GCC_PREFIX_HEADER = "/Users/zlx/Downloads/微博/微博/ZLXHeader.h";
+				INFOPLIST_FILE = "微博/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZLXWeibo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15F30EBB1E0A5FD10069D0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E97EC3E15D1D5C1FBA23624 /* Pods-微博.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = URHR6DYJ39;
+				GCC_PREFIX_HEADER = "/Users/zlx/Downloads/微博/微博/ZLXHeader.h";
+				INFOPLIST_FILE = "微博/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZLXWeibo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15F30EBD1E0A5FD10069D0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2723D133251F1A387CDB2727 /* Pods-微博Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = URHR6DYJ39;
+				INFOPLIST_FILE = "微博Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "disen.com.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微博.app/微博";
+			};
+			name = Debug;
+		};
+		15F30EBE1E0A5FD10069D0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12900593A76C5A649AFEFBCE /* Pods-微博Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = URHR6DYJ39;
+				INFOPLIST_FILE = "微博Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "disen.com.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微博.app/微博";
+			};
+			name = Release;
+		};
+		15F30EC01E0A5FD10069D0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09D312B3A204D0520F050DF /* Pods-微博UITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = URHR6DYJ39;
+				INFOPLIST_FILE = "微博UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "disen.com.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "微博";
+			};
+			name = Debug;
+		};
+		15F30EC11E0A5FD10069D0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB86F788840675AA7BCC9EF /* Pods-微博UITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = URHR6DYJ39;
+				INFOPLIST_FILE = "微博UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "disen.com.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "微博";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15F30E871E0A5FD10069D0CE /* Build configuration list for PBXProject "微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15F30EB71E0A5FD10069D0CE /* Debug */,
+				15F30EB81E0A5FD10069D0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15F30EB91E0A5FD10069D0CE /* Build configuration list for PBXNativeTarget "微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15F30EBA1E0A5FD10069D0CE /* Debug */,
+				15F30EBB1E0A5FD10069D0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15F30EBC1E0A5FD10069D0CE /* Build configuration list for PBXNativeTarget "微博Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15F30EBD1E0A5FD10069D0CE /* Debug */,
+				15F30EBE1E0A5FD10069D0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15F30EBF1E0A5FD10069D0CE /* Build configuration list for PBXNativeTarget "微博UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15F30EC01E0A5FD10069D0CE /* Debug */,
+				15F30EC11E0A5FD10069D0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15F30E841E0A5FD10069D0CE /* Project object */;
+}
